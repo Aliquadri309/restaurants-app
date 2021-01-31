@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RestaurantsFilter Component should render component without crash 1`] = `
+<div
+  className="filters"
+>
+  <div
+    className="filters__input-group"
+  >
+    <label>
+      Search By
+    </label>
+    <input
+      className="filters__input-group__input"
+      name="searchBy"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Name, City, Genre"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="filters__input-group"
+  >
+    <label>
+      Filter By State
+    </label>
+    <select
+      className="filters__input-group__input"
+      name="stateFilter"
+      onChange={[Function]}
+      value="All"
+    >
+      <option
+        key="0"
+        value="All"
+      >
+        All
+      </option>
+      <option
+        key="1"
+        value="VA"
+      >
+        VA
+      </option>
+      <option
+        key="2"
+        value="NY"
+      >
+        NY
+      </option>
+      <option
+        key="3"
+        value="FL"
+      >
+        FL
+      </option>
+      <option
+        key="4"
+        value="NC"
+      >
+        NC
+      </option>
+    </select>
+  </div>
+  <div
+    className="filters__input-group"
+  >
+    <label>
+      Filter By Genre
+    </label>
+    <select
+      className="filters__input-group__input"
+      name="genreFilter"
+      onChange={[Function]}
+      value="All"
+    >
+      <option
+        key="0"
+        value="All"
+      >
+        All
+      </option>
+      <option
+        key="1"
+        value="American"
+      >
+        American
+      </option>
+      <option
+        key="2"
+        value="Seafood"
+      >
+        Seafood
+      </option>
+      <option
+        key="3"
+        value="International"
+      >
+        International
+      </option>
+      <option
+        key="4"
+        value="Asian"
+      >
+        Asian
+      </option>
+      <option
+        key="5"
+        value="Cafe"
+      >
+        Cafe
+      </option>
+    </select>
+  </div>
+</div>
+`;

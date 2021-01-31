@@ -1,0 +1,21 @@
+.filters {
+    display: flex;
+    justify-content: flex-end;
+    &__input-group {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        label {
+            font-weight: 600;
+            font-size: 0.825rem;
+            margin-bottom: 0.5rem;
+        }
+        &__input {
+            padding: 0.5rem 0.75rem;
+            width: 200px;
+            border: 1px solid #555;
+            border-radius: 0.25rem;
+        }
+    }
+}

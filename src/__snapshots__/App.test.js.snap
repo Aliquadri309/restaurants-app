@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should render without crash 1`] = `
+<div
+  className="app"
+>
+  <header
+    className="app__header"
+  >
+    <h1
+      className="app__header__title"
+    >
+      Restaurants App
+    </h1>
+  </header>
+  <div
+    className="app__content"
+  >
+    <RestaurantContainer />
+  </div>
+</div>
+`;

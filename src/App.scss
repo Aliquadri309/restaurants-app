@@ -1,0 +1,14 @@
+.app {
+  &__header {
+    background-color: #03a9f4;
+    padding: 1rem;
+    &__title {
+      margin: 0;
+      color: #fff;
+    }
+  }
+
+  &__content {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RestaurantsTable Component should render without crash 1`] = `
+<table
+  className="table"
+>
+  <thead>
+    <tr>
+      <th
+        onClick={[Function]}
+      >
+        Name
+      </th>
+      <th>
+        City
+      </th>
+      <th
+        onClick={[Function]}
+      >
+        State
+      </th>
+      <th>
+        Phone Number
+      </th>
+      <th>
+        Genres
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        className="no-resultts-text"
+        colSpan="5"
+      >
+        No results found. Please change the filter criteria.
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td
+        colSpan="5"
+      >
+        <button
+          className="btn prev-btn"
+          onClick={[MockFunction]}
+        >
+          Prev
+        </button>
+        <button
+          className="btn next-btn"
+          onClick={[MockFunction]}
+        >
+          Next
+        </button>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+`;
